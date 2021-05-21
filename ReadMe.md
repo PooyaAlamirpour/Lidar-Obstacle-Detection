@@ -24,7 +24,7 @@ A **self-driving car** needs some techniques for preventing collision with pedes
 If you want to run my project own, follow the below structure on your system. If you want to run my project own, follow the below structure on your system. In this project, I have used PCL(Point Cloud Library). 
 
 <div align="center">
-<img src="https://github.com/PooyaAlamirpour/Lidar-Obstacle-Detection/blob/master/media/ObstacleDetectionFPS.gif" width="400" height="250" />
+<img src="https://github.com/PooyaAlamirpour/Lidar-Obstacle-Detection/blob/master/media/ObstacleDetection.gif" width="400" height="250" />
 <p>The demo of the PCL visualization</p>
 </div>
 

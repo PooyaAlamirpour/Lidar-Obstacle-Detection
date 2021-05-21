@@ -23,16 +23,14 @@ A **self-driving car** needs some techniques for preventing collision with pedes
 **Lidar** sensing gives us high resolution data by sending out thousands of laser signals. These lasers bounce off objects, returning to the sensor where we can then determine how far away objects are by timing how long it takes for the signal to return. Also we can tell a little bit about the object that was hit by measuring the intesity of the returned signal. Each laser ray is in the infrared spectrum, and is sent out at many different angles, usually in a 360 degree range. While lidar sensors gives us very high accurate models for the world around us in 3D, they are currently very expensive, upwards of $60,000 for a standard unit. **Sensor Fusion** by combing lidar's high resoultion imaging with radar's ability to measure velocity of objects we can get a better understanding of the sorrounding environment than we could using one of the sensors alone.
 If you want to run my project own, follow the below structure on your system. If you want to run my project own, follow the below structure on your system. In this project, I have used PCL(Point Cloud Library). 
 
-<div align="center">
 <img src="https://github.com/PooyaAlamirpour/Lidar-Obstacle-Detection/blob/master/media/ObstacleDetectionFPS.gif" width="400" height="250" />
-<p>The demo of the PCL visualization</p>
-</div>
 
 ### Installing
 
 If you want to run my project own, follow the below structure on your system. In this project, I have used PCL(Point Cloud Library). If you want to run my project own, follow the below structure on your system. In this project, I have used PCL(Point Cloud Library). The Point Cloud Library (PCL) is a standalone, large scale, open project for 2D/3D image and point cloud processing. PCL is released under the terms of the BSD license, and thus free for commercial and research use. We are financially supported by a consortium of commercial companies, with our own non-profit organization, Open Perception. We would also like to thank individual donors and contributors that have been helping the project.
 This library does not have any structure for running code in windows currently. But you can build it from scratch [here](https://pcl-tutorials.readthedocs.io/en/latest/compiling_pcl_windows.html). So you have two approaches. 
 > 1- Using docker file that could be downloaded from [here](https://dev.azure.com/PointCloudLibrary/pcl/_build?definitionId=11). This is the official PCL docker file.
+> <br>
 > 2- Installing Ubuntu on a VM.
 
 #### Ubuntu

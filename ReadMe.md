@@ -28,6 +28,12 @@ If you want to run my project own, follow the below structure on your system. If
 <p>The demo of the PCL visualization</p>
 </div>
 
+### Minimum Requirements
+* ubuntu 16.04.
+* g++-5.5.
+* PCL 1.2 library.
+If you have ros melodic installed on **ubuntu 18.04** or **ros kinetic** installed on ubuntu 16.04 that will be good to build.
+
 ### Installing
 
 If you want to run my project own, follow the below structure on your system. In this project, I have used PCL(Point Cloud Library). If you want to run my project own, follow the below structure on your system. In this project, I have used PCL(Point Cloud Library). The Point Cloud Library (PCL) is a standalone, large scale, open project for 2D/3D image and point cloud processing. PCL is released under the terms of the BSD license, and thus free for commercial and research use. We are financially supported by a consortium of commercial companies, with our own non-profit organization, Open Perception. We would also like to thank individual donors and contributors that have been helping the project.
@@ -44,7 +50,7 @@ $> git clone https://github.com/PooyaAlamirpour/Lidar-Obstacle-Detection.git
 $> cd Lidar-Obstacle-Detection
 $> mkdir build && cd build
 $> cmake ..
-$> make
+$> make -j4
 $> ./environment
 ```
 Also you can find the continuous integration here.

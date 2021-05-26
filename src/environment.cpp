@@ -134,13 +134,13 @@ void initCamera(CameraAngle setAngle, pcl::visualization::PCLVisualizer::Ptr& vi
 int main (int argc, char** argv)
 {
     std::cout << "starting enviroment" << std::endl;
-    //viewer gives you the basic scene 
+    
     pcl::visualization::PCLVisualizer::Ptr viewer (new pcl::visualization::PCLVisualizer ("3D Viewer"));
     CameraAngle setAngle = XY;
     initCamera(setAngle, viewer);
     
     //simpleHighway(viewer);
-    cityBlock(viewer);
+    //cityBlock(viewer);
 
     ProcessPointClouds<pcl::PointXYZI>* pointprocessorI(new ProcessPointClouds<pcl::PointXYZI>());  
     std::vector<boost::filesystem::path> stream = pointprocessorI->streamPcd("../src/sensors/data/pcd/data_1");
@@ -149,7 +149,6 @@ int main (int argc, char** argv)
 
     while (!viewer->wasStopped ())
     {
-
         // Clear viewer
         viewer->removeAllPointClouds();
         viewer->removeAllShapes();

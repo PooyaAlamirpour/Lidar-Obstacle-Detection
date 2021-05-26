@@ -31,7 +31,8 @@ If you want to run my project own, follow the below structure on your system. If
 ### Minimum Requirements
 * ubuntu 16.04.
 * g++-5.5.
-* PCL 1.2 library.
+* PCL 1.2 library
+
 If you have ros melodic installed on **ubuntu 18.04** or **ros kinetic** installed on ubuntu 16.04 that will be good to build.
 
 ### Installing
